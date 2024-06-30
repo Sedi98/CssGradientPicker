@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dynamic Gradient Color Picker</title>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./prism.css" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="gradient-display"></div>
+    </header>
+
+
+    <section class="page">
+
+
+        <div class="container">
+            <h1>Dynamic Gradient Color Picker</h1>
+            <section class="contents">
+              <div class="gradientType">
+                <button class="btnType btnLinear">Linear</button>
+                <button class="btnType btnRadial">Radial</button>
+              </div>
+              <div class="ColorsSection">
+                <!-- Controls will be rendered at here -->
+                <div class="btnAddStopContainer">
+                  <button class="btnAddStop">Add Stop</button>
+                  <!-- discontinued button -->
+                  <!-- <button class="btnRemoveAll">Remove All</button> -->
+                </div>
+              </div>
+            </section>
+            <div class="codeContainer">
+              <pre>
+                  <code class="language-css"></code>
+              </pre>
+            </div>
+          </div>
+
+    </section>
+
+    
+
+    <footer class="footer">
+        <p>Copyright &copy; 2024<span class="year"></span>. Made with ❤️ by Sadi Mammadov.All Rights Reserved</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/prism.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/components/prism-javascript.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
